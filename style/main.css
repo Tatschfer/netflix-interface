@@ -64,16 +64,17 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 16px;
 }
 
 .filme-principal .titulo{
     margin-top: 5%;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
 .botao{
-    background-color: rgba(0,0,0,.50);
+    background-color: rgba(0,0,0,.30);
     font-weight: bold;
     border: none;
     color: white;
@@ -96,6 +97,10 @@ header nav a:hover{
     margin-right: 8px;
 }
 
+.botao{
+    border-radius: 10px;
+}
+
 .container{
     margin-left: 30px;
 }
@@ -112,4 +117,17 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top:5px;
+}
+
+.mute {
+    background: transparent;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 60%;
+    left: 90%;  
+}
+
+.mute:hover{
+    color: black;
 }
