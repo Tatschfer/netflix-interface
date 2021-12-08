@@ -35,7 +35,11 @@ header .logo{
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin: 1px;
+}
+
+header nav a{
+    margin-left: 30px;
 }
 
 header nav a:hover{
